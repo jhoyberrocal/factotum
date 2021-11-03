@@ -1,4 +1,4 @@
-export type ActionToReducer = {
+export type ActionToReducer<T> = {
   type: string;
-  payload: any;
+  payload: T;
 };
